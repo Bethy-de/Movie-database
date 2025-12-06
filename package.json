@@ -1,0 +1,12 @@
+{
+  "name": "movie-database",
+  "version": "1.0.0",
+  "description": "A simple movie database project built with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
