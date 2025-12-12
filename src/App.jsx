@@ -1,4 +1,8 @@
 import { useState } from "react";
+import MovieCard from "./components/MovieCard";
+
+{movies.map(movie => <MovieCard key={movie.id} movie={movie} />)}
+
 
 export default function App() {
   const [movies, setMovies] = useState([
